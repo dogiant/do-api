@@ -19,7 +19,7 @@ public interface CmsDataService {
 	
 	public ArticleItemDTO getArticleItemByCatCode(String code);
 
-	public List<ArticleItemDTO> getLatestPost(int number);
+	public List<ArticleItemDTO> getLatestPost(int size);
 	
 	public PagedResult<ArticleItemDTO> getArticleItemsByCatCode(String code,Integer pageNo,Integer pageRows);
 	

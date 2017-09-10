@@ -8,6 +8,7 @@ public class ArticleItemDTO implements java.io.Serializable {
 	 */
 	private static final long serialVersionUID = 1904444469514676979L;
 	private Long id;
+	private ArticleCatDTO articleCatDTO;
 	private Integer type;
 	private String userName;
 	private String title;
@@ -30,6 +31,14 @@ public class ArticleItemDTO implements java.io.Serializable {
 
 	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public ArticleCatDTO getArticleCatDTO() {
+		return articleCatDTO;
+	}
+
+	public void setArticleCatDTO(ArticleCatDTO articleCatDTO) {
+		this.articleCatDTO = articleCatDTO;
 	}
 
 	public String getUserName() {
