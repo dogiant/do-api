@@ -91,4 +91,10 @@ public class ArticleCatDTO implements java.io.Serializable {
 		this.catDesc = catDesc;
 	}
 
+	@Override
+	public String toString() {
+		return "ArticleCatDTO [catId=" + catId + ", catCode=" + catCode + ", catName=" + catName + ", catType="
+				+ catType + ", isTextCat=" + isTextCat + ", keywords=" + keywords + ", catDesc=" + catDesc + "]";
+	}
+
 }

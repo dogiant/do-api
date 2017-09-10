@@ -161,4 +161,13 @@ public class ArticleItemDTO implements java.io.Serializable {
 		this.mtime = mtime;
 	}
 
+	@Override
+	public String toString() {
+		return "ArticleItemDTO [id=" + id + ", articleCatDTO=" + articleCatDTO + ", type=" + type + ", userName="
+				+ userName + ", title=" + title + ", subtitle=" + subtitle + ", author=" + author + ", digest=" + digest
+				+ ", content=" + content + ", coverPicUrl=" + coverPicUrl + ", coverIntoContent=" + coverIntoContent
+				+ ", sourceUrl=" + sourceUrl + ", linkUrl=" + linkUrl + ", fileUrl=" + fileUrl + ", status=" + status
+				+ ", ctime=" + ctime + ", mtime=" + mtime + "]";
+	}
+
 }

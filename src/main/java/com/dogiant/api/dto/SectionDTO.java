@@ -81,4 +81,12 @@ public class SectionDTO implements java.io.Serializable {
 		this.mtime = mtime;
 	}
 
+	@Override
+	public String toString() {
+		return "SectionDTO [id=" + id + ", code=" + code + ", name=" + name + ", type=" + type + ", content=" + content
+				+ ", status=" + status + ", ctime=" + ctime + ", mtime=" + mtime + "]";
+	}
+	
+	
+
 }
