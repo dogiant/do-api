@@ -25,4 +25,7 @@ public interface CmsDataService {
 	
 	public ArticleItemDTO getArticleItemById(Long id);
 	
+	public List<ArticleItemDTO> getRecommendItem(int size);
+
+	
 }
